@@ -1,2 +1,4 @@
-requests==2.31.0
+requests
 flask
+python-dotenv
+pymongo==4.5.0
