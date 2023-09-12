@@ -20,5 +20,5 @@ def get_price(ticker: str, verbose: bool = False) -> dict:
     }
 
 def set_price(document: dict):
-    _ = client.get_database('tickers').get_collection('Saul').insert_one(document=document)
+    _ = client.get_database('prueba1').get_collection('Saul').insert_one(document=document)
     return 'ok'
